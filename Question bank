@@ -38,10 +38,10 @@ What is type of storage account ?
 Advantages of docker,kubernet  
  Azure Security and Identity services (e.g., Security Center, Azure Active Directory, RBAC, NSGs / ASGs)
 
-#########################################################################
+#####################################################################################
 
-Shivani
- Topics
+Shivani 
+ Topics : 
 AWS important services at least IAAS based
 Git branching strategies
 Git rebase and merge difference
@@ -53,7 +53,7 @@ Kubernetes component
 Kubernetes architecture
 Refer ALOK Kumar series for more interview questions
 
-###############
+########################################################################################
 Azure Devops
 
 Azure key vault how to store secret in azure Devops and how to call it different strategies and which one is best ??
@@ -74,30 +74,35 @@ Application insights ⭐
 
 
 Load balance types of load balancer and how you will use it ?
-
 Arm templates you should know syntax and how to link two templates?
-
 Then how to give stages of pipeline like after build only test should happen and like wise ?
-
 Azure key vault can be use same in all environment and why based on ur answer
-
-
 Public facing load balancer and load balancer scenario based questions
-
 Availability zones and sets and auto scaling infrastructure based on requirements
-
 Azure function logic apps and service endpoint.
-
-
 Grafana mq
 
-Question ale almost
+#################################################################################################################
+DOCKER QUESTION REAL TIME INTERVIEW 
 
+@. Entrypoint and cmd difference
+@. if we give one entry point to a dockerfile still will you able to change that entry point at a run time ?
+@. then other question is suppose can we write two from statememt in docker file if yes how we can acheive that and what will happen?
 
+Scenaraio based Question : 
 
+@. Suppose yesterday we have pull one image from production on the server and in your remote local server you have already push that image.
+and today lets say if the image got deleted from production and your docker pull command is also not working .
+How will you verify the image is same ?
 
+Answer : 
+docker inspect --format='{{index .RepoDigests 0}}' <image-name>       ###### shaid ######
+answer and learn about it in more detail
 
+@. how to increase the log level of docker running container ?
 
+Answer : 
+docker update --log-driver=json-file --log-opt max-size=10m --log-opt max-file=3 --log-opt labels=debug-level=debug <container-id-or-name>
 
 
 
