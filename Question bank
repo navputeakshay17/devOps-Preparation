@@ -1,1 +1,125 @@
+AKS Interview Q's asked today
+How do you scale an application running on AKS? ans: replica
+How do you deploy applications to AKS? using yaml files/scripts
+Monitor AKS Deployments
+networking op's working in AKS
+Optimizing work loads in AKS
+Scaling applications onto AKS
+high cpu usage
+Q's on pod related topics
+memory management
+baisc network & aks architecture
+some scenario based Q's.  ? 
+What is advantages of docker ? 
+What is mean by virtual machine and virtual machine scaling ? 
+Which protocol used while creating the file storage ? 
+What is the object of yaml file ? 
+Explain the AKS architecture ? 
+What is mean by NSG ? 
+How we can understand the pod we have deployed ?  -- > ans -- We can understand by selector and lables 
+What is use of plug-In ? 
+Diff between docker image and docker container ? 
+What is mean by docker hub ? 
+What is use of rope ? 
+Diff between docker add and docker copy ? 
+Have you ever build any CI/CD pipeline ? 
+What is pre-requisite to AKS deployment ? 
+Microsoft azure services ? 
+Did you right the docker file ? Or write simple docker file for any java application ? 
+What is storage service ? 
+What is subnet address ? 
+What is inbound and outbound rule ? 
+What is use of Load balancer ? 
+What is type of load balancer ? 
+What is mean by docker and docker virtualization ? 
+What is key concept in mind while creating VPN ? 
+Azure services principal ? 
+What is type of storage account ? 
+Advantages of docker,kubernet  
+ Azure Security and Identity services (e.g., Security Center, Azure Active Directory, RBAC, NSGs / ASGs)
+
+#########################################################################
+
+Shivani
+ Topics
+AWS important services at least IAAS based
+Git branching strategies
+Git rebase and merge difference
+Git reset and revert scenario
+Git stash usage
+Resolve merge conflict
+Kubernetes based
+Kubernetes component
+Kubernetes architecture
+Refer ALOK Kumar series for more interview questions
+
+###############
+Azure Devops
+
+Azure key vault how to store secret in azure Devops and how to call it different strategies and which one is best ??
+
+Then azure cicd pipeline have you ever build it what you done?
+Azure devtest resource learn that..
+Azure.pipeline.yaml syntax how to define stages
+
+
+Acs azure container service how to delete images which are older
+
+Azure pipeline for acs it's architectute and flow 
+
+Azure monitor in deep
+Log analytics
+Altering based 
+Application insights ⭐
+
+
+Load balance types of load balancer and how you will use it ?
+
+Arm templates you should know syntax and how to link two templates?
+
+Then how to give stages of pipeline like after build only test should happen and like wise ?
+
+Azure key vault can be use same in all environment and why based on ur answer
+
+
+Public facing load balancer and load balancer scenario based questions
+
+Availability zones and sets and auto scaling infrastructure based on requirements
+
+Azure function logic apps and service endpoint.
+
+
+Grafana mq
+
+Question ale almost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
