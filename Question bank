@@ -1,4 +1,4 @@
-AKS Interview Q's asked today
+######################################################################
 How do you scale an application running on AKS? ans: replica
 How do you deploy applications to AKS? using yaml files/scripts
 Monitor AKS Deployments
