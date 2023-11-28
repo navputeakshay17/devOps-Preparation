@@ -61,17 +61,13 @@ Azure key vault how to store secret in azure Devops and how to call it different
 Then azure cicd pipeline have you ever build it what you done?
 Azure devtest resource learn that..
 Azure.pipeline.yaml syntax how to define stages
-
-
 Acs azure container service how to delete images which are older
-
 Azure pipeline for acs it's architectute and flow 
 
 Azure monitor in deep
 Log analytics
 Altering based 
 Application insights ⭐
-
 
 Load balance types of load balancer and how you will use it ?
 Arm templates you should know syntax and how to link two templates?
@@ -90,7 +86,6 @@ DOCKER QUESTION REAL TIME INTERVIEW
 @. then other question is suppose can we write two from statememt in docker file if yes how we can acheive that and what will happen?
 
 Scenaraio based Question : 
-
 @. Suppose yesterday we have pull one image from production on the server and in your remote local server you have already push that image.
 and today lets say if the image got deleted from production and your docker pull command is also not working .
 How will you verify the image is same ?
@@ -100,10 +95,8 @@ docker inspect --format='{{index .RepoDigests 0}}' <image-name>       ###### sha
 answer and learn about it in more detail
 
 @. how to increase the log level of docker running container ?
-
 Answer : 
 docker update --log-driver=json-file --log-opt max-size=10m --log-opt max-file=3 --log-opt labels=debug-level=debug <container-id-or-name>
-
 
 ########################################  CI/CD #################################################
 
