@@ -91,32 +91,66 @@ and today lets say if the image got deleted from production and your docker pull
 How will you verify the image is same ?
 
 Answer : 
-docker inspect --format='{{index .RepoDigests 0}}' <image-name>       ###### shaid ######
+docker inspect --format='{{index .RepoDigests 0}}' <image-name>     #### shaid ######
 answer and learn about it in more detail
 
 @. how to increase the log level of docker running container ?
 Answer : 
 docker update --log-driver=json-file --log-opt max-size=10m --log-opt max-file=3 --log-opt labels=debug-level=debug <container-id-or-name>
 
-########################################  CI/CD #################################################
+########################################       CI/CD      #################################################
 
 What’s the difference between continuous integration, continuous delivery, and continuous deployment?
 Benefits of CI/CD
-What is meant by CI-CD?
-What is Jenkins Pipeline?
-How do you configure the job in Jenkins?
-Where do you find errors in Jenkins?
-In Jenkins how can you find log files?
-Jenkins workflow and write a script for this workflow?
-How to create continuous deployment in Jenkins?
-How build job in Jenkins?
-Why we use pipeline in Jenkins?
-Is Only Jenkins enough for automation?
-How will you handle secrets?
+What is meant by CI-CD ?
+What is Jenkins Pipeline ?
+How do you configure the job in Jenkins ?
+Where do you find errors in Jenkins ?
+In Jenkins how can you find log files ?
+Jenkins workflow and write a script for this workflow ?
+How to create continuous deployment in Jenkins ?
+How build job in Jenkins ?
+Why we use pipeline in Jenkins ?
+Is Only Jenkins enough for automation ?
+How will you handle secrets ?
 Explain diff stages in CI-CD setup ? 
-Name some of the plugins in Jenkin?
+Name some of the plugins in Jenkin ?
 
+######################################     Jenkins     ####################################################
 
+Basic
+Explain the concept of continuous integration (CI) and continuous delivery (CD). How does Jenkins facilitate these processes?
+Describe the role of Jenkins in the software development lifecycle (SDLC).
+Differentiate between declarative and scripted Jenkins pipelines.
+Elaborate on the Jenkinsfile and its significance in defining Jenkins pipelines.
+Explain the concept of Jenkins plugins and their role in extending Jenkins' functionality.
+Name a few popular Jenkins plugins and their applications.
+Discuss the benefits of using Jenkins for software development.
+Explain how Jenkins helps in reducing the time to market for software releases.
+Elaborate on the strategies Jenkins adopts to enhance software quality.
+Describe how Jenkins contributes to increased developer productivity.
+Intermediate
+Describe the Jenkins configuration as code approach.
+Explain the concept of Jenkins jobs and their role in defining tasks.
+Discuss the methods for creating Jenkins jobs using the web UI and the CLI.
+Describe the various types of build triggers available in Jenkins.
+Explain how Jenkins handles the execution of build steps.
+Discuss the concept of Maven jobs in Jenkins and their configuration.
+Explain the concept of freestyle jobs in Jenkins and their configuration.
+Describe the process of managing Jenkins user permissions and roles.
+Explain how Jenkins integrates with version control systems like Git.
+Discuss the concept of Jenkins pipeline libraries and their usage.
+Advanced
+Discuss security considerations for Jenkins deployments.
+Explain strategies for monitoring Jenkins performance and identifying bottlenecks.
+Describe methods for troubleshooting Jenkins failures and optimizing its performance.
+Explain how Jenkins integrates with cloud platforms like AWS and Azure.
+Discuss the concept of Jenkins on-premises deployments and their benefits.
+Explain how Jenkins can be configured for high availability and disaster recovery.
+Discuss the role of Jenkins in continuous integration and testing (CI/T) practices.
+Explain how Jenkins can automate deployment processes for various environments.
+Discuss the concept of Jenkins continuous delivery (CD) pipelines.
+Explain how Jenkins can be integrated with containerization technologies like Docker and Kubernetes.
 
 
 
